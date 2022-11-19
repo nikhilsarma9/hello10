@@ -13,13 +13,12 @@ public class hello {
 			System.out.println(" ");
 			System.out.println(elem);
 		}
-		
-		
-		/*for(int i=0;i<a.length();i++)
+		String name="nikhil";
+		char[] aa=name.toCharArray();
+		for(int i=0;i<aa.length;i++)
 		{
-			char[] b=a.toCharArray();
-			System.out.println(b[i]);
-		}*/
+			System.out.println(aa[i]);
+		}
 	}
 
 }
